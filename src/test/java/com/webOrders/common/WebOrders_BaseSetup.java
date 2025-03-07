@@ -51,10 +51,11 @@ public class WebOrders_BaseSetup {
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("OS", System.getProperty("os.name"));
 		extent.setSystemInfo("browser",browserType );
-
+		extent.setSystemInfo("QA Name","Abhi" );
+		
 		htmlReporter.config().setDocumentTitle("Extend Report For WebOrders Tests");
 		htmlReporter.config().setReportName("Extend Report For WebOrders Tests");
-		htmlReporter.config().setTheme(Theme.STANDARD);
+		htmlReporter.config().setTheme(Theme.DARK);
 		htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')' ");
 	}
 

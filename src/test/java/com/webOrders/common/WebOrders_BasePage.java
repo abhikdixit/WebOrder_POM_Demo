@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.webOrders.home.WebOrders_SignInPage;
 
 public class WebOrders_BasePage{
-private static WebDriver driver;
+
+	private static WebDriver driver;
 	
 	//WebElement txtusername = driver.findElement(By.name(""));
 	

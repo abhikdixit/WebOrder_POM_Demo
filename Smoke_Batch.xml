@@ -8,7 +8,6 @@
 	<parameter name="browserType" value="chrome" />
 	<test name="test-1">
 		<classes>
-			<!-- <class name="com.orangeHRM.test.OrangeHRM_Login" /> -->
 			<class name="com.webOrders.test.WebOrders_Login" />
 			<class name="com.webOrders.test.WebOrder_Order_Test" />
 			<class name="com.webOrders.test.WebOrder_ViewAllOrders_Test" />

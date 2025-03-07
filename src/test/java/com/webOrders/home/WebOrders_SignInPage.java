@@ -26,7 +26,7 @@ public class WebOrders_SignInPage {
 
 	public boolean verifySignInPageText() {
 		String pageText = txtWebOrder.getText();
-		String expectedPageText = "Dashboard";
+		String expectedPageText = "Web Orders";
 		return pageText.contains(expectedPageText);
 	}
 
