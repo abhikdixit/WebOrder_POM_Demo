@@ -54,7 +54,7 @@ public class WebOrder_ViewAllOrders_Test extends WebOrders_BaseSetup {
 		test = extent.createTest("Test Case 3", "Verify if user can delete an order");
 
 		viewAllOrderPage.deleteOrder(name, product);
-		Assert.assertEquals(true, viewAllOrderPage.verifyDeletedRecord(name), "Records are still Exists.");
+		Assert.assertEquals(true, viewAllOrderPage.verifyDeletedRecord(name), "Record still Exists.");
 	}
 
 	@Test(description = "Validate user can edit an order", dataProvider = "Update Form", dataProviderClass = WebOrders_TestData.class, priority = 4, enabled = true)

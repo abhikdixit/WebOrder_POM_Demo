@@ -40,12 +40,12 @@ public class WebOrders_Login extends WebOrders_BaseSetup {
 		basePage.logout();
 	}
 
-	@Test(description = "validateURL() method call for URL verification", priority = 3)
+	@Test(description = "validateTitle() method call for Title verification", priority = 3)
 	public void verifyText() throws Exception {
 		test = extent.createTest("Test Case 3", "Verify Text after login");
 		signIn = basePage.GoToHomePageAndSignIn("Tester", "test");
 		Thread.sleep(3000);
-		signIn.verifySignInPageText();
+		signIn.verifySignInPageTitle();
 		basePage.logout();
 	}
 }
